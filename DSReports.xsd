@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSReports" targetNamespace="http://tempuri.org/DSReports.xsd" xmlns:mstns="http://tempuri.org/DSReports.xsd" xmlns="http://tempuri.org/DSReports.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSReports" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSReports" msprop:Generator_DataSetName="DSReports">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GenRptFields" msprop:Generator_TableClassName="GenRptFieldsDataTable" msprop:Generator_TableVarName="tableGenRptFields" msprop:Generator_TablePropName="GenRptFields" msprop:Generator_RowDeletingName="GenRptFieldsRowDeleting" msprop:Generator_RowChangingName="GenRptFieldsRowChanging" msprop:Generator_RowEvHandlerName="GenRptFieldsRowChangeEventHandler" msprop:Generator_RowDeletedName="GenRptFieldsRowDeleted" msprop:Generator_UserTableName="GenRptFields" msprop:Generator_RowChangedName="GenRptFieldsRowChanged" msprop:Generator_RowEvArgName="GenRptFieldsRowChangeEvent" msprop:Generator_RowClassName="GenRptFieldsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STR1" msprop:Generator_ColumnVarNameInTable="columnSTR1" msprop:Generator_ColumnPropNameInRow="STR1" msprop:Generator_ColumnPropNameInTable="STR1Column" msprop:Generator_UserColumnName="STR1" type="xs:string" minOccurs="0" />
+              <xs:element name="STR2" msprop:Generator_ColumnVarNameInTable="columnSTR2" msprop:Generator_ColumnPropNameInRow="STR2" msprop:Generator_ColumnPropNameInTable="STR2Column" msprop:Generator_UserColumnName="STR2" type="xs:string" minOccurs="0" />
+              <xs:element name="STR3" msprop:Generator_ColumnVarNameInTable="columnSTR3" msprop:Generator_ColumnPropNameInRow="STR3" msprop:Generator_ColumnPropNameInTable="STR3Column" msprop:Generator_UserColumnName="STR3" type="xs:string" minOccurs="0" />
+              <xs:element name="STR4" msprop:Generator_ColumnVarNameInTable="columnSTR4" msprop:Generator_ColumnPropNameInRow="STR4" msprop:Generator_ColumnPropNameInTable="STR4Column" msprop:Generator_UserColumnName="STR4" type="xs:string" minOccurs="0" />
+              <xs:element name="STR5" msprop:Generator_ColumnVarNameInTable="columnSTR5" msprop:Generator_ColumnPropNameInRow="STR5" msprop:Generator_ColumnPropNameInTable="STR5Column" msprop:Generator_UserColumnName="STR5" type="xs:string" minOccurs="0" />
+              <xs:element name="STR6" msprop:Generator_ColumnVarNameInTable="columnSTR6" msprop:Generator_ColumnPropNameInRow="STR6" msprop:Generator_ColumnPropNameInTable="STR6Column" msprop:Generator_UserColumnName="STR6" type="xs:string" minOccurs="0" />
+              <xs:element name="STR7" msprop:Generator_ColumnVarNameInTable="columnSTR7" msprop:Generator_ColumnPropNameInRow="STR7" msprop:Generator_ColumnPropNameInTable="STR7Column" msprop:Generator_UserColumnName="STR7" type="xs:string" minOccurs="0" />
+              <xs:element name="STR8" msprop:Generator_ColumnVarNameInTable="columnSTR8" msprop:Generator_ColumnPropNameInRow="STR8" msprop:Generator_ColumnPropNameInTable="STR8Column" msprop:Generator_UserColumnName="STR8" type="xs:string" minOccurs="0" />
+              <xs:element name="STR9" msprop:Generator_ColumnVarNameInTable="columnSTR9" msprop:Generator_ColumnPropNameInRow="STR9" msprop:Generator_ColumnPropNameInTable="STR9Column" msprop:Generator_UserColumnName="STR9" type="xs:string" minOccurs="0" />
+              <xs:element name="STR10" msprop:Generator_ColumnVarNameInTable="columnSTR10" msprop:Generator_ColumnPropNameInRow="STR10" msprop:Generator_ColumnPropNameInTable="STR10Column" msprop:Generator_UserColumnName="STR10" type="xs:string" minOccurs="0" />
+              <xs:element name="STR11" msprop:Generator_ColumnVarNameInTable="columnSTR11" msprop:Generator_ColumnPropNameInRow="STR11" msprop:Generator_ColumnPropNameInTable="STR11Column" msprop:Generator_UserColumnName="STR11" type="xs:string" minOccurs="0" />
+              <xs:element name="STR12" msprop:Generator_ColumnVarNameInTable="columnSTR12" msprop:Generator_ColumnPropNameInRow="STR12" msprop:Generator_ColumnPropNameInTable="STR12Column" msprop:Generator_UserColumnName="STR12" type="xs:string" minOccurs="0" />
+              <xs:element name="STR13" msprop:Generator_ColumnVarNameInTable="columnSTR13" msprop:Generator_ColumnPropNameInRow="STR13" msprop:Generator_ColumnPropNameInTable="STR13Column" msprop:Generator_UserColumnName="STR13" type="xs:string" minOccurs="0" />
+              <xs:element name="STR14" msprop:Generator_ColumnVarNameInTable="columnSTR14" msprop:Generator_ColumnPropNameInRow="STR14" msprop:Generator_ColumnPropNameInTable="STR14Column" msprop:Generator_UserColumnName="STR14" type="xs:string" minOccurs="0" />
+              <xs:element name="STR15" msprop:Generator_ColumnVarNameInTable="columnSTR15" msprop:Generator_ColumnPropNameInRow="STR15" msprop:Generator_ColumnPropNameInTable="STR15Column" msprop:Generator_UserColumnName="STR15" type="xs:string" minOccurs="0" />
+              <xs:element name="Sng1" msprop:Generator_ColumnVarNameInTable="columnSng1" msprop:Generator_ColumnPropNameInRow="Sng1" msprop:Generator_ColumnPropNameInTable="Sng1Column" msprop:Generator_UserColumnName="Sng1" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng2" msprop:Generator_ColumnVarNameInTable="columnSng2" msprop:Generator_ColumnPropNameInRow="Sng2" msprop:Generator_ColumnPropNameInTable="Sng2Column" msprop:Generator_UserColumnName="Sng2" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng3" msprop:Generator_ColumnVarNameInTable="columnSng3" msprop:Generator_ColumnPropNameInRow="Sng3" msprop:Generator_ColumnPropNameInTable="Sng3Column" msprop:Generator_UserColumnName="Sng3" type="xs:float" minOccurs="0" />
+              <xs:element name="STR1H" msprop:Generator_ColumnVarNameInTable="columnSTR1H" msprop:Generator_ColumnPropNameInRow="STR1H" msprop:Generator_ColumnPropNameInTable="STR1HColumn" msprop:Generator_UserColumnName="STR1H" type="xs:string" minOccurs="0" />
+              <xs:element name="STR2H" msprop:Generator_ColumnVarNameInTable="columnSTR2H" msprop:Generator_ColumnPropNameInRow="STR2H" msprop:Generator_ColumnPropNameInTable="STR2HColumn" msprop:Generator_UserColumnName="STR2H" type="xs:string" minOccurs="0" />
+              <xs:element name="STR3H" msprop:Generator_ColumnVarNameInTable="columnSTR3H" msprop:Generator_ColumnPropNameInRow="STR3H" msprop:Generator_ColumnPropNameInTable="STR3HColumn" msprop:Generator_UserColumnName="STR3H" type="xs:string" minOccurs="0" />
+              <xs:element name="STR4H" msprop:Generator_ColumnVarNameInTable="columnSTR4H" msprop:Generator_ColumnPropNameInRow="STR4H" msprop:Generator_ColumnPropNameInTable="STR4HColumn" msprop:Generator_UserColumnName="STR4H" type="xs:string" minOccurs="0" />
+              <xs:element name="STR5H" msprop:Generator_ColumnVarNameInTable="columnSTR5H" msprop:Generator_ColumnPropNameInRow="STR5H" msprop:Generator_ColumnPropNameInTable="STR5HColumn" msprop:Generator_UserColumnName="STR5H" type="xs:string" minOccurs="0" />
+              <xs:element name="STR6H" msprop:Generator_ColumnVarNameInTable="columnSTR6H" msprop:Generator_ColumnPropNameInRow="STR6H" msprop:Generator_ColumnPropNameInTable="STR6HColumn" msprop:Generator_UserColumnName="STR6H" type="xs:string" minOccurs="0" />
+              <xs:element name="STR7H" msprop:Generator_ColumnVarNameInTable="columnSTR7H" msprop:Generator_ColumnPropNameInRow="STR7H" msprop:Generator_ColumnPropNameInTable="STR7HColumn" msprop:Generator_UserColumnName="STR7H" type="xs:string" minOccurs="0" />
+              <xs:element name="STR8H" msprop:Generator_ColumnVarNameInTable="columnSTR8H" msprop:Generator_ColumnPropNameInRow="STR8H" msprop:Generator_ColumnPropNameInTable="STR8HColumn" msprop:Generator_UserColumnName="STR8H" type="xs:string" minOccurs="0" />
+              <xs:element name="STR9H" msprop:Generator_ColumnVarNameInTable="columnSTR9H" msprop:Generator_ColumnPropNameInRow="STR9H" msprop:Generator_ColumnPropNameInTable="STR9HColumn" msprop:Generator_UserColumnName="STR9H" type="xs:string" minOccurs="0" />
+              <xs:element name="STR10H" msprop:Generator_ColumnVarNameInTable="columnSTR10H" msprop:Generator_ColumnPropNameInRow="STR10H" msprop:Generator_ColumnPropNameInTable="STR10HColumn" msprop:Generator_UserColumnName="STR10H" type="xs:string" minOccurs="0" />
+              <xs:element name="STR11H" msprop:Generator_ColumnVarNameInTable="columnSTR11H" msprop:Generator_ColumnPropNameInRow="STR11H" msprop:Generator_ColumnPropNameInTable="STR11HColumn" msprop:Generator_UserColumnName="STR11H" type="xs:string" minOccurs="0" />
+              <xs:element name="STR12H" msprop:Generator_ColumnVarNameInTable="columnSTR12H" msprop:Generator_ColumnPropNameInRow="STR12H" msprop:Generator_ColumnPropNameInTable="STR12HColumn" msprop:Generator_UserColumnName="STR12H" type="xs:string" minOccurs="0" />
+              <xs:element name="STR13H" msprop:Generator_ColumnVarNameInTable="columnSTR13H" msprop:Generator_ColumnPropNameInRow="STR13H" msprop:Generator_ColumnPropNameInTable="STR13HColumn" msprop:Generator_UserColumnName="STR13H" type="xs:string" minOccurs="0" />
+              <xs:element name="STR14H" msprop:Generator_ColumnVarNameInTable="columnSTR14H" msprop:Generator_ColumnPropNameInRow="STR14H" msprop:Generator_ColumnPropNameInTable="STR14HColumn" msprop:Generator_UserColumnName="STR14H" type="xs:string" minOccurs="0" />
+              <xs:element name="STR15H" msprop:Generator_ColumnVarNameInTable="columnSTR15H" msprop:Generator_ColumnPropNameInRow="STR15H" msprop:Generator_ColumnPropNameInTable="STR15HColumn" msprop:Generator_UserColumnName="STR15H" type="xs:string" minOccurs="0" />
+              <xs:element name="INT1" msprop:Generator_ColumnVarNameInTable="columnINT1" msprop:Generator_ColumnPropNameInRow="INT1" msprop:Generator_ColumnPropNameInTable="INT1Column" msprop:Generator_UserColumnName="INT1" type="xs:string" minOccurs="0" />
+              <xs:element name="INT2" msprop:Generator_ColumnVarNameInTable="columnINT2" msprop:Generator_ColumnPropNameInRow="INT2" msprop:Generator_ColumnPropNameInTable="INT2Column" msprop:Generator_UserColumnName="INT2" type="xs:string" minOccurs="0" />
+              <xs:element name="INT3" msprop:Generator_ColumnVarNameInTable="columnINT3" msprop:Generator_ColumnPropNameInRow="INT3" msprop:Generator_ColumnPropNameInTable="INT3Column" msprop:Generator_UserColumnName="INT3" type="xs:string" minOccurs="0" />
+              <xs:element name="INT4" msprop:Generator_ColumnVarNameInTable="columnINT4" msprop:Generator_ColumnPropNameInRow="INT4" msprop:Generator_ColumnPropNameInTable="INT4Column" msprop:Generator_UserColumnName="INT4" type="xs:string" minOccurs="0" />
+              <xs:element name="INT5" msprop:Generator_ColumnVarNameInTable="columnINT5" msprop:Generator_ColumnPropNameInRow="INT5" msprop:Generator_ColumnPropNameInTable="INT5Column" msprop:Generator_UserColumnName="INT5" type="xs:string" minOccurs="0" />
+              <xs:element name="INT6" msprop:Generator_ColumnVarNameInTable="columnINT6" msprop:Generator_ColumnPropNameInRow="INT6" msprop:Generator_ColumnPropNameInTable="INT6Column" msprop:Generator_UserColumnName="INT6" type="xs:string" minOccurs="0" />
+              <xs:element name="INT7" msprop:Generator_ColumnVarNameInTable="columnINT7" msprop:Generator_ColumnPropNameInRow="INT7" msprop:Generator_ColumnPropNameInTable="INT7Column" msprop:Generator_UserColumnName="INT7" type="xs:string" minOccurs="0" />
+              <xs:element name="STR16" msprop:Generator_ColumnVarNameInTable="columnSTR16" msprop:Generator_ColumnPropNameInRow="STR16" msprop:Generator_ColumnPropNameInTable="STR16Column" msprop:Generator_UserColumnName="STR16" type="xs:string" minOccurs="0" />
+              <xs:element name="STR17" msprop:Generator_ColumnVarNameInTable="columnSTR17" msprop:Generator_ColumnPropNameInRow="STR17" msprop:Generator_ColumnPropNameInTable="STR17Column" msprop:Generator_UserColumnName="STR17" type="xs:string" minOccurs="0" />
+              <xs:element name="STR18" msprop:Generator_ColumnVarNameInTable="columnSTR18" msprop:Generator_ColumnPropNameInRow="STR18" msprop:Generator_ColumnPropNameInTable="STR18Column" msprop:Generator_UserColumnName="STR18" type="xs:string" minOccurs="0" />
+              <xs:element name="STR19" msprop:Generator_ColumnVarNameInTable="columnSTR19" msprop:Generator_ColumnPropNameInRow="STR19" msprop:Generator_ColumnPropNameInTable="STR19Column" msprop:Generator_UserColumnName="STR19" type="xs:string" minOccurs="0" />
+              <xs:element name="INT8" msprop:Generator_ColumnVarNameInTable="columnINT8" msprop:Generator_ColumnPropNameInRow="INT8" msprop:Generator_ColumnPropNameInTable="INT8Column" msprop:Generator_UserColumnName="INT8" type="xs:string" minOccurs="0" />
+              <xs:element name="INT9" msprop:Generator_ColumnVarNameInTable="columnINT9" msprop:Generator_ColumnPropNameInRow="INT9" msprop:Generator_ColumnPropNameInTable="INT9Column" msprop:Generator_UserColumnName="INT9" type="xs:string" minOccurs="0" />
+              <xs:element name="INT10" msprop:Generator_ColumnVarNameInTable="columnINT10" msprop:Generator_ColumnPropNameInRow="INT10" msprop:Generator_ColumnPropNameInTable="INT10Column" msprop:Generator_UserColumnName="INT10" type="xs:string" minOccurs="0" />
+              <xs:element name="INT11" msprop:Generator_ColumnVarNameInTable="columnINT11" msprop:Generator_ColumnPropNameInRow="INT11" msprop:Generator_ColumnPropNameInTable="INT11Column" msprop:Generator_UserColumnName="INT11" type="xs:string" minOccurs="0" />
+              <xs:element name="INT12" msprop:Generator_ColumnVarNameInTable="columnINT12" msprop:Generator_ColumnPropNameInRow="INT12" msprop:Generator_ColumnPropNameInTable="INT12Column" msprop:Generator_UserColumnName="INT12" type="xs:string" minOccurs="0" />
+              <xs:element name="STR20" msprop:Generator_ColumnVarNameInTable="columnSTR20" msprop:Generator_ColumnPropNameInRow="STR20" msprop:Generator_ColumnPropNameInTable="STR20Column" msprop:Generator_UserColumnName="STR20" type="xs:string" minOccurs="0" />
+              <xs:element name="STR21" msprop:Generator_ColumnVarNameInTable="columnSTR21" msprop:Generator_ColumnPropNameInRow="STR21" msprop:Generator_ColumnPropNameInTable="STR21Column" msprop:Generator_UserColumnName="STR21" type="xs:string" minOccurs="0" />
+              <xs:element name="STR22" msprop:Generator_ColumnVarNameInTable="columnSTR22" msprop:Generator_ColumnPropNameInRow="STR22" msprop:Generator_ColumnPropNameInTable="STR22Column" msprop:Generator_UserColumnName="STR22" type="xs:string" minOccurs="0" />
+              <xs:element name="STR23" msprop:Generator_ColumnVarNameInTable="columnSTR23" msprop:Generator_ColumnPropNameInRow="STR23" msprop:Generator_ColumnPropNameInTable="STR23Column" msprop:Generator_UserColumnName="STR23" type="xs:string" minOccurs="0" />
+              <xs:element name="STR24" msprop:Generator_ColumnVarNameInTable="columnSTR24" msprop:Generator_ColumnPropNameInRow="STR24" msprop:Generator_ColumnPropNameInTable="STR24Column" msprop:Generator_UserColumnName="STR24" type="xs:string" minOccurs="0" />
+              <xs:element name="STR25" msprop:Generator_ColumnVarNameInTable="columnSTR25" msprop:Generator_ColumnPropNameInRow="STR25" msprop:Generator_ColumnPropNameInTable="STR25Column" msprop:Generator_UserColumnName="STR25" type="xs:string" minOccurs="0" />
+              <xs:element name="STR26" msprop:Generator_ColumnVarNameInTable="columnSTR26" msprop:Generator_ColumnPropNameInRow="STR26" msprop:Generator_ColumnPropNameInTable="STR26Column" msprop:Generator_UserColumnName="STR26" type="xs:string" minOccurs="0" />
+              <xs:element name="STR27" msprop:Generator_ColumnVarNameInTable="columnSTR27" msprop:Generator_ColumnPropNameInRow="STR27" msprop:Generator_ColumnPropNameInTable="STR27Column" msprop:Generator_UserColumnName="STR27" type="xs:string" minOccurs="0" />
+              <xs:element name="STR28" msprop:Generator_ColumnVarNameInTable="columnSTR28" msprop:Generator_ColumnPropNameInRow="STR28" msprop:Generator_ColumnPropNameInTable="STR28Column" msprop:Generator_UserColumnName="STR28" type="xs:string" minOccurs="0" />
+              <xs:element name="Bytes1" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Bytes2" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Bytes3" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Bytes4" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Bytes5" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Bytes6" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Bytes7" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Bytes8" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Bytes9" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Sng4" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng5" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng6" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng7" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng8" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng9" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng10" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng11" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng12" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng13" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng14" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng15" type="xs:float" minOccurs="0" />
+              <xs:element name="STR29" type="xs:string" minOccurs="0" />
+              <xs:element name="STR30" type="xs:string" minOccurs="0" />
+              <xs:element name="Sng16" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng17" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng18" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng19" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng20" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng21" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng22" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng23" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng24" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng25" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng26" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng27" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng28" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng29" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng30" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng31" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng32" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng33" type="xs:float" minOccurs="0" />
+              <xs:element name="AccID" type="xs:string" minOccurs="0" />
+              <xs:element name="S1" type="xs:string" minOccurs="0" />
+              <xs:element name="S2" type="xs:string" minOccurs="0" />
+              <xs:element name="S3" type="xs:string" minOccurs="0" />
+              <xs:element name="S4" type="xs:string" minOccurs="0" />
+              <xs:element name="S5" type="xs:string" minOccurs="0" />
+              <xs:element name="S6" type="xs:string" minOccurs="0" />
+              <xs:element name="S7" type="xs:string" minOccurs="0" />
+              <xs:element name="S8" type="xs:string" minOccurs="0" />
+              <xs:element name="S9" type="xs:string" minOccurs="0" />
+              <xs:element name="S10" type="xs:string" minOccurs="0" />
+              <xs:element name="S11" type="xs:string" minOccurs="0" />
+              <xs:element name="S12" type="xs:string" minOccurs="0" />
+              <xs:element name="S13" type="xs:string" minOccurs="0" />
+              <xs:element name="S14" type="xs:string" minOccurs="0" />
+              <xs:element name="S15" type="xs:string" minOccurs="0" />
+              <xs:element name="S16" type="xs:string" minOccurs="0" />
+              <xs:element name="S17" type="xs:string" minOccurs="0" />
+              <xs:element name="S18" type="xs:string" minOccurs="0" />
+              <xs:element name="S19" type="xs:string" minOccurs="0" />
+              <xs:element name="S20" type="xs:string" minOccurs="0" />
+              <xs:element name="S21" type="xs:string" minOccurs="0" />
+              <xs:element name="S22" type="xs:string" minOccurs="0" />
+              <xs:element name="S23" type="xs:string" minOccurs="0" />
+              <xs:element name="S24" type="xs:string" minOccurs="0" />
+              <xs:element name="S25" type="xs:string" minOccurs="0" />
+              <xs:element name="S26" type="xs:string" minOccurs="0" />
+              <xs:element name="S27" type="xs:string" minOccurs="0" />
+              <xs:element name="S28" type="xs:string" minOccurs="0" />
+              <xs:element name="S29" type="xs:string" minOccurs="0" />
+              <xs:element name="S30" type="xs:string" minOccurs="0" />
+              <xs:element name="S31" type="xs:string" minOccurs="0" />
+              <xs:element name="S32" type="xs:string" minOccurs="0" />
+              <xs:element name="S33" type="xs:string" minOccurs="0" />
+              <xs:element name="S34" type="xs:string" minOccurs="0" />
+              <xs:element name="S35" type="xs:string" minOccurs="0" />
+              <xs:element name="S36" type="xs:string" minOccurs="0" />
+              <xs:element name="S37" type="xs:string" minOccurs="0" />
+              <xs:element name="S38" type="xs:string" minOccurs="0" />
+              <xs:element name="S39" type="xs:string" minOccurs="0" />
+              <xs:element name="S40" type="xs:string" minOccurs="0" />
+              <xs:element name="S41" type="xs:string" minOccurs="0" />
+              <xs:element name="S42" type="xs:string" minOccurs="0" />
+              <xs:element name="S43" type="xs:string" minOccurs="0" />
+              <xs:element name="S44" type="xs:string" minOccurs="0" />
+              <xs:element name="S45" type="xs:string" minOccurs="0" />
+              <xs:element name="S46" type="xs:string" minOccurs="0" />
+              <xs:element name="S47" type="xs:string" minOccurs="0" />
+              <xs:element name="S48" type="xs:string" minOccurs="0" />
+              <xs:element name="S49" type="xs:string" minOccurs="0" />
+              <xs:element name="S50" type="xs:string" minOccurs="0" />
+              <xs:element name="S51" type="xs:string" minOccurs="0" />
+              <xs:element name="S52" type="xs:string" minOccurs="0" />
+              <xs:element name="S53" type="xs:string" minOccurs="0" />
+              <xs:element name="S54" type="xs:string" minOccurs="0" />
+              <xs:element name="S55" type="xs:string" minOccurs="0" />
+              <xs:element name="S56" type="xs:string" minOccurs="0" />
+              <xs:element name="S57" type="xs:string" minOccurs="0" />
+              <xs:element name="S58" type="xs:string" minOccurs="0" />
+              <xs:element name="S59" type="xs:string" minOccurs="0" />
+              <xs:element name="S60" type="xs:string" minOccurs="0" />
+              <xs:element name="S61" type="xs:string" minOccurs="0" />
+              <xs:element name="S62" type="xs:string" minOccurs="0" />
+              <xs:element name="S63" type="xs:string" minOccurs="0" />
+              <xs:element name="S64" type="xs:string" minOccurs="0" />
+              <xs:element name="S65" type="xs:string" minOccurs="0" />
+              <xs:element name="S66" type="xs:string" minOccurs="0" />
+              <xs:element name="S69" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LandReg">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" type="xs:string" minOccurs="0" />
+              <xs:element name="MutationNo" type="xs:string" minOccurs="0" />
+              <xs:element name="Seller" type="xs:string" minOccurs="0" />
+              <xs:element name="Kannel" type="xs:int" minOccurs="0" />
+              <xs:element name="Marla" type="xs:int" minOccurs="0" />
+              <xs:element name="Feets" type="xs:int" minOccurs="0" />
+              <xs:element name="Description" type="xs:string" minOccurs="0" />
+              <xs:element name="Village" type="xs:string" minOccurs="0" />
+              <xs:element name="UserName" type="xs:string" minOccurs="0" />
+              <xs:element name="CreateDate" type="xs:string" minOccurs="0" />
+              <xs:element name="FromDate" type="xs:string" minOccurs="0" />
+              <xs:element name="ToDate" type="xs:string" minOccurs="0" />
+              <xs:element name="ProjectName" type="xs:string" minOccurs="0" />
+              <xs:element name="KheuuatNo" type="xs:string" minOccurs="0" />
+              <xs:element name="KhasraNo" type="xs:string" minOccurs="0" />
+              <xs:element name="TKannel" type="xs:int" minOccurs="0" />
+              <xs:element name="TMarla" type="xs:int" minOccurs="0" />
+              <xs:element name="TFeets" type="xs:int" minOccurs="0" />
+              <xs:element name="PKannel" type="xs:int" minOccurs="0" />
+              <xs:element name="PMarla" type="xs:int" minOccurs="0" />
+              <xs:element name="PFeets" type="xs:int" minOccurs="0" />
+              <xs:element name="VerifyDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Share" type="xs:string" minOccurs="0" />
+              <xs:element name="Remarks" type="xs:string" minOccurs="0" />
+              <xs:element name="DCreateDate" type="xs:string" minOccurs="0" />
+              <xs:element name="K" type="xs:string" minOccurs="0" />
+              <xs:element name="M" type="xs:string" minOccurs="0" />
+              <xs:element name="F" type="xs:string" minOccurs="0" />
+              <xs:element name="TK" type="xs:string" minOccurs="0" />
+              <xs:element name="TM" type="xs:string" minOccurs="0" />
+              <xs:element name="TF" type="xs:string" minOccurs="0" />
+              <xs:element name="IK" type="xs:string" minOccurs="0" />
+              <xs:element name="IM" type="xs:string" minOccurs="0" />
+              <xs:element name="IFe" type="xs:string" minOccurs="0" />
+              <xs:element name="ITK" type="xs:string" minOccurs="0" />
+              <xs:element name="ITM" type="xs:string" minOccurs="0" />
+              <xs:element name="ITF" type="xs:string" minOccurs="0" />
+              <xs:element name="STR1" type="xs:float" minOccurs="0" />
+              <xs:element name="STR2" type="xs:float" minOccurs="0" />
+              <xs:element name="STR3" type="xs:float" minOccurs="0" />
+              <xs:element name="STR4" type="xs:float" minOccurs="0" />
+              <xs:element name="STR5" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng1" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng2" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng3" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng4" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng5" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng6" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng7" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng8" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng9" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng10" type="xs:float" minOccurs="0" />
+              <xs:element name="Bytes1" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Bytes2" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Bytes3" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Bytes4" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Bytes5" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="DataColumn1" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GenRptFields1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STR1" type="xs:string" minOccurs="0" />
+              <xs:element name="STR2" type="xs:string" minOccurs="0" />
+              <xs:element name="STR3" type="xs:string" minOccurs="0" />
+              <xs:element name="STR4" type="xs:string" minOccurs="0" />
+              <xs:element name="STR5" type="xs:string" minOccurs="0" />
+              <xs:element name="STR6" type="xs:string" minOccurs="0" />
+              <xs:element name="STR7" type="xs:string" minOccurs="0" />
+              <xs:element name="STR8" type="xs:string" minOccurs="0" />
+              <xs:element name="STR9" type="xs:string" minOccurs="0" />
+              <xs:element name="STR10" type="xs:string" minOccurs="0" />
+              <xs:element name="STR11" type="xs:string" minOccurs="0" />
+              <xs:element name="STR12" type="xs:string" minOccurs="0" />
+              <xs:element name="STR13" type="xs:string" minOccurs="0" />
+              <xs:element name="STR14" type="xs:string" minOccurs="0" />
+              <xs:element name="STR15" type="xs:string" minOccurs="0" />
+              <xs:element name="Sng1" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng2" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng3" type="xs:float" minOccurs="0" />
+              <xs:element name="STR1H" type="xs:string" minOccurs="0" />
+              <xs:element name="STR2H" type="xs:string" minOccurs="0" />
+              <xs:element name="STR3H" type="xs:string" minOccurs="0" />
+              <xs:element name="STR4H" type="xs:string" minOccurs="0" />
+              <xs:element name="STR5H" type="xs:string" minOccurs="0" />
+              <xs:element name="STR6H" type="xs:string" minOccurs="0" />
+              <xs:element name="STR7H" type="xs:string" minOccurs="0" />
+              <xs:element name="STR8H" type="xs:string" minOccurs="0" />
+              <xs:element name="STR9H" type="xs:string" minOccurs="0" />
+              <xs:element name="STR10H" type="xs:string" minOccurs="0" />
+              <xs:element name="STR11H" type="xs:string" minOccurs="0" />
+              <xs:element name="STR12H" type="xs:string" minOccurs="0" />
+              <xs:element name="STR13H" type="xs:string" minOccurs="0" />
+              <xs:element name="STR14H" type="xs:string" minOccurs="0" />
+              <xs:element name="STR15H" type="xs:string" minOccurs="0" />
+              <xs:element name="INT1" type="xs:string" minOccurs="0" />
+              <xs:element name="INT2" type="xs:string" minOccurs="0" />
+              <xs:element name="INT3" type="xs:string" minOccurs="0" />
+              <xs:element name="INT4" type="xs:string" minOccurs="0" />
+              <xs:element name="INT5" type="xs:string" minOccurs="0" />
+              <xs:element name="INT6" type="xs:string" minOccurs="0" />
+              <xs:element name="INT7" type="xs:string" minOccurs="0" />
+              <xs:element name="STR16" type="xs:string" minOccurs="0" />
+              <xs:element name="STR17" type="xs:string" minOccurs="0" />
+              <xs:element name="STR18" type="xs:string" minOccurs="0" />
+              <xs:element name="STR19" type="xs:string" minOccurs="0" />
+              <xs:element name="INT8" type="xs:string" minOccurs="0" />
+              <xs:element name="INT9" type="xs:string" minOccurs="0" />
+              <xs:element name="INT10" type="xs:string" minOccurs="0" />
+              <xs:element name="INT11" type="xs:string" minOccurs="0" />
+              <xs:element name="INT12" type="xs:string" minOccurs="0" />
+              <xs:element name="STR20" type="xs:string" minOccurs="0" />
+              <xs:element name="STR21" type="xs:string" minOccurs="0" />
+              <xs:element name="STR22" type="xs:string" minOccurs="0" />
+              <xs:element name="STR23" type="xs:string" minOccurs="0" />
+              <xs:element name="STR24" type="xs:string" minOccurs="0" />
+              <xs:element name="STR25" type="xs:string" minOccurs="0" />
+              <xs:element name="STR26" type="xs:string" minOccurs="0" />
+              <xs:element name="STR27" type="xs:string" minOccurs="0" />
+              <xs:element name="STR28" type="xs:string" minOccurs="0" />
+              <xs:element name="Bytes1" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Bytes2" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Bytes3" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Bytes4" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Bytes5" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Bytes6" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Bytes7" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Bytes8" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Bytes9" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Sng4" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng5" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng6" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng7" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng8" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng9" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng10" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng11" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng12" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng13" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng14" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng15" type="xs:float" minOccurs="0" />
+              <xs:element name="STR29" type="xs:string" minOccurs="0" />
+              <xs:element name="STR30" type="xs:string" minOccurs="0" />
+              <xs:element name="Sng16" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng17" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng18" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng19" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng20" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng21" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng22" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng23" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng24" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng25" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng26" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng27" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng28" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng29" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng30" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng31" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng32" type="xs:float" minOccurs="0" />
+              <xs:element name="Sng33" type="xs:float" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

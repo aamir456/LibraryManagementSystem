@@ -1,0 +1,504 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EA286B97-C010-4A61-B71F-C1FFFEEDA051}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LibraryManagementSystem</RootNamespace>
+    <AssemblyName>LibraryManagementSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44354</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BLLV2, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\BLLV2.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Design, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Web, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="abc.aspx" />
+    <Content Include="addrow.aspx" />
+    <Content Include="bin\BLLV2.dll" />
+    <Content Include="BookIssue.aspx" />
+    <Content Include="BookQuantity.aspx" />
+    <Content Include="BookRecieving.aspx" />
+    <Content Include="BookReport.aspx" />
+    <Content Include="Books.aspx" />
+    <Content Include="css\application.min.css" />
+    <Content Include="css\compose.min.css" />
+    <Content Include="css\contacts.min.css" />
+    <Content Include="css\dashboard-3.min.css" />
+    <Content Include="css\demo.min.css" />
+    <Content Include="css\drive.min.css" />
+    <Content Include="css\elephant.min.css" />
+    <Content Include="css\errors.min.css" />
+    <Content Include="css\inbox.min.css" />
+    <Content Include="css\landing-page.min.css" />
+    <Content Include="css\login-1.min.css" />
+    <Content Include="css\login-2.min.css" />
+    <Content Include="css\login-3.min.css" />
+    <Content Include="css\mail.min.css" />
+    <Content Include="css\messenger.min.css" />
+    <Content Include="css\product.min.css" />
+    <Content Include="css\profile.min.css" />
+    <Content Include="css\shopping-cart.min.css" />
+    <Content Include="css\signup-1.min.css" />
+    <Content Include="css\signup-2.min.css" />
+    <Content Include="css\signup-3.min.css" />
+    <Content Include="css\store.min.css" />
+    <Content Include="css\vendor.min.css" />
+    <Content Include="default.aspx" />
+    <Content Include="fonts\fontawesome-webfont5b62.svg" />
+    <Content Include="img\0100e8b81ad03f81a64a0a5f49c5be41.jpg" />
+    <Content Include="img\0180441436.jpg" />
+    <Content Include="img\0299419341.jpg" />
+    <Content Include="img\0310728269.jpg" />
+    <Content Include="img\0460697039.jpg" />
+    <Content Include="img\0531871454.jpg" />
+    <Content Include="img\0601274412.jpg" />
+    <Content Include="img\0777931269.jpg" />
+    <Content Include="img\0872116906.jpg" />
+    <Content Include="img\0980726243.jpg" />
+    <Content Include="img\1007517980.jpg" />
+    <Content Include="img\1015664515.jpg" />
+    <Content Include="img\1025453682.jpg" />
+    <Content Include="img\1033422797.jpg" />
+    <Content Include="img\1044368407.jpg" />
+    <Content Include="img\1050099119.jpg" />
+    <Content Include="img\1067123558.jpg" />
+    <Content Include="img\1099386850.jpg" />
+    <Content Include="img\1182824800.jpg" />
+    <Content Include="img\1272501223.jpg" />
+    <Content Include="img\1376812548.jpg" />
+    <Content Include="img\1463296788.jpg" />
+    <Content Include="img\1554502810.jpg" />
+    <Content Include="img\1699893867.jpg" />
+    <Content Include="img\1703835345.jpg" />
+    <Content Include="img\1823060748.jpg" />
+    <Content Include="img\1968946964.jpg" />
+    <Content Include="img\2079247459.jpg" />
+    <Content Include="img\2163317912.jpg" />
+    <Content Include="img\2234124529.jpg" />
+    <Content Include="img\2362153679.jpg" />
+    <Content Include="img\2440513918.jpg" />
+    <Content Include="img\2565559510.jpg" />
+    <Content Include="img\2621512521.jpg" />
+    <Content Include="img\2790515408.jpg" />
+    <Content Include="img\2832982242.jpg" />
+    <Content Include="img\2995015682.jpg" />
+    <Content Include="img\2ef1cfdcf1da5256d7b994983bd8d457.jpg" />
+    <Content Include="img\3002121059.jpg" />
+    <Content Include="img\3353100198.jpg" />
+    <Content Include="img\3476962581.jpg" />
+    <Content Include="img\35e0765272cd421a5352331003ae2ab1.jpg" />
+    <Content Include="img\3dd124286157b729cc38d9bd7045e384.jpg" />
+    <Content Include="img\4148866741.png" />
+    <Content Include="img\4299815763.png" />
+    <Content Include="img\4337135755.png" />
+    <Content Include="img\4460638882.png" />
+    <Content Include="img\4522104820.png" />
+    <Content Include="img\4608823220.png" />
+    <Content Include="img\4790827186.png" />
+    <Content Include="img\4818875210.jpg" />
+    <Content Include="img\4902540768.jpg" />
+    <Content Include="img\4fcb4322807f1fd92aa3140adb37d4d9.jpg" />
+    <Content Include="img\5037874725.jpg" />
+    <Content Include="img\5171142011.jpg" />
+    <Content Include="img\5285117345.jpg" />
+    <Content Include="img\5345655041.jpg" />
+    <Content Include="img\5477829604.jpg" />
+    <Content Include="img\5595140688.jpg" />
+    <Content Include="img\5615854990.jpg" />
+    <Content Include="img\5774898501.jpg" />
+    <Content Include="img\5892565850.jpg" />
+    <Content Include="img\5991713086.jpg" />
+    <Content Include="img\6049281045.jpg" />
+    <Content Include="img\6149937996.jpg" />
+    <Content Include="img\6298374167.jpg" />
+    <Content Include="img\6381079466.jpg" />
+    <Content Include="img\6482952761.jpg" />
+    <Content Include="img\6501906268.jpg" />
+    <Content Include="img\6621353903.jpg" />
+    <Content Include="img\6711938749.jpg" />
+    <Content Include="img\6858253787.jpg" />
+    <Content Include="img\6950484109.jpg" />
+    <Content Include="img\69ece2eb60bdd2126e2acf27af43aa9b.jpg" />
+    <Content Include="img\7045565015.jpg" />
+    <Content Include="img\7154941405.jpg" />
+    <Content Include="img\7225550528.jpg" />
+    <Content Include="img\7397509215.jpg" />
+    <Content Include="img\7457956311.png" />
+    <Content Include="img\7489e404fb5088d63e5a5d55b27d546c.jpg" />
+    <Content Include="img\7575559379.jpg" />
+    <Content Include="img\7690704672.jpg" />
+    <Content Include="img\7795524868.jpg" />
+    <Content Include="img\7808910503.jpg" />
+    <Content Include="img\7943544458.jpg" />
+    <Content Include="img\7a4ee939781f6165006cff1b5b8096d4.jpg" />
+    <Content Include="img\8077136002.jpg" />
+    <Content Include="img\8160313374.jpg" />
+    <Content Include="img\8244439665.jpg" />
+    <Content Include="img\8335744038.jpg" />
+    <Content Include="img\8447261358.jpg" />
+    <Content Include="img\8525358731.jpg" />
+    <Content Include="img\8694637414.jpg" />
+    <Content Include="img\8796828207.png" />
+    <Content Include="img\8898319262.jpg" />
+    <Content Include="img\8907917568.png" />
+    <Content Include="img\9066377313.png" />
+    <Content Include="img\9193364282.png" />
+    <Content Include="img\9248739560.png" />
+    <Content Include="img\9346320298.png" />
+    <Content Include="img\9438147354.png" />
+    <Content Include="img\9540314125.png" />
+    <Content Include="img\9620101696.png" />
+    <Content Include="img\9722110524.jpg" />
+    <Content Include="img\972b6c5882a45ee73d83a90a9852660c.jpg" />
+    <Content Include="img\9870681590.jpg" />
+    <Content Include="img\9964167452.jpg" />
+    <Content Include="img\b787e62313c23880e0797bfbbc3d150c.jpg" />
+    <Content Include="img\books-1281581_1920.jpg" />
+    <Content Include="img\cca2226fdaba079b321ba5cf05ba0adc.jpg" />
+    <Content Include="img\f420a3cea0fb04862eb630f5a54b2733.jpg" />
+    <Content Include="img\flags\4x3\bd.svg" />
+    <Content Include="img\flags\4x3\br.svg" />
+    <Content Include="img\flags\4x3\cn.svg" />
+    <Content Include="img\flags\4x3\id.svg" />
+    <Content Include="img\flags\4x3\in.svg" />
+    <Content Include="img\flags\4x3\mx.svg" />
+    <Content Include="img\flags\4x3\ng.svg" />
+    <Content Include="img\flags\4x3\pk.svg" />
+    <Content Include="img\flags\4x3\ru.svg" />
+    <Content Include="img\flags\4x3\us.svg" />
+    <Content Include="img\logo-inverse.svg" />
+    <Content Include="img\logo.svg" />
+    <Content Include="img\logo5.png" />
+    <Content Include="index.html" />
+    <Content Include="JavaScript.js" />
+    <Content Include="js\application.min.js" />
+    <Content Include="js\compose.min.js" />
+    <Content Include="js\contacts.min.js" />
+    <Content Include="js\demo.min.js" />
+    <Content Include="js\drive.min.js" />
+    <Content Include="js\elephant.min.js" />
+    <Content Include="js\inbox.min.js" />
+    <Content Include="js\landing-page.min.js" />
+    <Content Include="js\mail.min.js" />
+    <Content Include="js\messenger.min.js" />
+    <Content Include="js\MyJS.js" />
+    <Content Include="js\product.min.js" />
+    <Content Include="js\profile.min.js" />
+    <Content Include="js\signup-1.min.js" />
+    <Content Include="js\vendor.min.js" />
+    <Content Include="LibraryRoles.aspx" />
+    <Content Include="LibraryUser.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="MemberInformation.aspx" />
+    <Content Include="MemberType.aspx" />
+    <Content Include="Report.aspx" />
+    <Content Include="Task1.aspx" />
+    <Content Include="User.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="WSLNDasmx.asmx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="abc.aspx.cs">
+      <DependentUpon>abc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="abc.aspx.designer.cs">
+      <DependentUpon>abc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="addrow.aspx.cs">
+      <DependentUpon>addrow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addrow.aspx.designer.cs">
+      <DependentUpon>addrow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BookReport.aspx.cs">
+      <DependentUpon>BookReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BookReport.aspx.designer.cs">
+      <DependentUpon>BookReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DSReports.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSReports.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LibraryRoles.aspx.cs">
+      <DependentUpon>LibraryRoles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LibraryRoles.aspx.designer.cs">
+      <DependentUpon>LibraryRoles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LibraryUser.aspx.cs">
+      <DependentUpon>LibraryUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LibraryUser.aspx.designer.cs">
+      <DependentUpon>LibraryUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="myclass.cs" />
+    <Compile Include="Report.aspx.cs">
+      <DependentUpon>Report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report.aspx.designer.cs">
+      <DependentUpon>Report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\BookIssueReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BookIssueReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\BookReceiveReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BookReceiveReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\BookReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BookReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Task1.aspx.cs">
+      <DependentUpon>Task1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Task1.aspx.designer.cs">
+      <DependentUpon>Task1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User.aspx.cs">
+      <DependentUpon>User.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User.aspx.designer.cs">
+      <DependentUpon>User.aspx</DependentUpon>
+    </Compile>
+    <Content Include="App_Code\DataSetSale.cs" />
+    <Content Include="App_Code\DataSetSale.designer.cs">
+      <DependentUpon>DataSetSale.cs</DependentUpon>
+    </Content>
+    <Content Include="App_Code\EncQStr.cs" />
+    <Content Include="App_Code\FillDropdowns.cs" />
+    <Content Include="App_Code\GridConrolsFun.cs" />
+    <Compile Include="BookIssue.aspx.cs">
+      <DependentUpon>BookIssue.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BookIssue.aspx.designer.cs">
+      <DependentUpon>BookIssue.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BookQuantity.aspx.cs">
+      <DependentUpon>BookQuantity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BookQuantity.aspx.designer.cs">
+      <DependentUpon>BookQuantity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BookRecieving.aspx.cs">
+      <DependentUpon>BookRecieving.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BookRecieving.aspx.designer.cs">
+      <DependentUpon>BookRecieving.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Books.aspx.cs">
+      <DependentUpon>Books.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Books.aspx.designer.cs">
+      <DependentUpon>Books.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberInformation.aspx.cs">
+      <DependentUpon>MemberInformation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberInformation.aspx.designer.cs">
+      <DependentUpon>MemberInformation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberType.aspx.cs">
+      <DependentUpon>MemberType.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberType.aspx.designer.cs">
+      <DependentUpon>MemberType.aspx</DependentUpon>
+    </Compile>
+    <Content Include="App_Code\WSLNDasmx.cs">
+      <SubType>Component</SubType>
+    </Content>
+    <Compile Include="BAL.cs" />
+    <Compile Include="DAL.cs" />
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MainSite.Master.cs">
+      <DependentUpon>MainSite.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainSite.Master.designer.cs">
+      <DependentUpon>MainSite.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MainSite.Master" />
+    <Content Include="fonts\fontawesome-webfont5b62.eot" />
+    <Content Include="fonts\fontawesome-webfont5b62.ttf" />
+    <Content Include="fonts\fontawesome-webfont5b62.woff" />
+    <Content Include="fonts\fontawesome-webfont5b62.woff2" />
+    <Content Include="fonts\fontawesome-webfontd41d.eot" />
+    <Content Include="bin\BLLV2.dll.refresh" />
+    <Content Include="DSReports.xsc">
+      <DependentUpon>DSReports.xsd</DependentUpon>
+    </Content>
+    <None Include="DSReports.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSReports.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="DSReports.xss">
+      <DependentUpon>DSReports.xsd</DependentUpon>
+    </Content>
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Reports\BookIssueReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BookIssueReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\BookReceiveReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BookReceiveReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\BookReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BookReport.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50110</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44354/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
